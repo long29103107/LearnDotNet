@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoAutoFac", "DemoAutoFac"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoAutoFac", "DemoAutoFac\DemoAutoFac.csproj", "{35F64E32-0187-42F8-9007-A7EFD096B26B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoMemoryCache", "DemoMemoryCache", "{F3D135B7-E05D-4F40-9388-4DF283FD3164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMemoryCache", "DemoMemoryCache\DemoMemoryCache.csproj", "{2B034AB5-FA61-4AF8-AE3C-C1A7C9F2698E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{35F64E32-0187-42F8-9007-A7EFD096B26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35F64E32-0187-42F8-9007-A7EFD096B26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35F64E32-0187-42F8-9007-A7EFD096B26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B034AB5-FA61-4AF8-AE3C-C1A7C9F2698E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B034AB5-FA61-4AF8-AE3C-C1A7C9F2698E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B034AB5-FA61-4AF8-AE3C-C1A7C9F2698E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B034AB5-FA61-4AF8-AE3C-C1A7C9F2698E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F11C5E3A-124B-4E65-B35E-DA146BE038F1} = {2438B58F-BD18-4EA4-9B9D-8A59E08B921F}
 		{35F64E32-0187-42F8-9007-A7EFD096B26B} = {EC7EC30B-9D12-4295-859D-F3D222D9F557}
+		{2B034AB5-FA61-4AF8-AE3C-C1A7C9F2698E} = {F3D135B7-E05D-4F40-9388-4DF283FD3164}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4054E71-AF4A-433C-9AFB-EBA2A87102F4}
