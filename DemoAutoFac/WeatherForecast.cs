@@ -1,6 +1,6 @@
 using System;
 
-namespace DemoRepoDB
+namespace DemoAutoFac
 {
     public class WeatherForecast
     {
