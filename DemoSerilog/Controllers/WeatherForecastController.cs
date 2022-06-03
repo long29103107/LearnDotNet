@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace DemoSerilog.Controllers
@@ -34,6 +35,30 @@ namespace DemoSerilog.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        [HttpGet(template: "/api/error/{id}")]
+        public ActionResult<string> GetError(int id)
+        {
+            try
+            {
+                if (id <= 0)
+                {
+                    throw new Exception($"id cannot be less than or equal to 0:{id}");
+                }
+
+                return Ok($"id is:{id}");
+
+            }
+            catch (Exception ex)
+            {
+                var sb = new StringBuilder();
+                sb.AppendLine($"Error message:{ex.Message}");
+                sb.AppendLine($"Error stack trace:{ex.StackTrace}");
+                _logger.LogError(sb.ToString());
+            }
+
+            return BadRequest("bad request");
         }
     }
 }

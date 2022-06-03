@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Serilog;
+using Serilog.Formatting.Compact;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,10 @@ namespace DemoSerilog
         {
             Log.Logger = new LoggerConfiguration()
                 .Enrich.FromLogContext()
-                .WriteTo.Console(new RenderedCompactJsonFormatter()).WriteTo.Debug(outputTemplate: DateTime.Now.ToString()).WriteTo.File("log.txt", rollingInterval: RollingInterval.Day)
+                .WriteTo.Console(new RenderedCompactJsonFormatter())
+                .WriteTo.Debug(outputTemplate: DateTime.Now.ToString())
+                .WriteTo.File("log.txt", rollingInterval: RollingInterval.Day)
+                .WriteTo.Seq("http://localhost:5341/")
                 .CreateLogger();
             CreateHostBuilder(args).Build().Run();
         }
