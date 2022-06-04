@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32519.379
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoScrutor", "DemoScrutor", "{2438B58F-BD18-4EA4-9B9D-8A59E08B921F}"
 EndProject
@@ -21,11 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoElasticSearch", "DemoEl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoSerilog", "DemoSerilog", "{7B28426E-4454-40FD-9CE0-246B1F80D89E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSerilog", "DemoSerilog\DemoSerilog.csproj", "{86B43291-0349-4F8F-A311-85E05364BECD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoSerilog", "DemoSerilog\DemoSerilog.csproj", "{86B43291-0349-4F8F-A311-85E05364BECD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoELK", "DemoELK", "{A30420E0-55CB-458E-B9D1-52E92C1A1CB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoELK", "DemoELK\DemoELK.csproj", "{F964CCD2-C136-48AE-8485-6C672919C1C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoELK", "DemoELK\DemoELK.csproj", "{F964CCD2-C136-48AE-8485-6C672919C1C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
