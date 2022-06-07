@@ -5,11 +5,11 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoHotChocolate", "DemoHotChocolate", "{0C873902-884B-40AB-9E5C-5B6A0C68B7A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoHotChocolate", "DemoHotChocolate\DemoHotChocolate.csproj", "{3589907A-3106-4974-89E7-CBFE039E967D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoHotChocolate", "DemoHotChocolate\DemoHotChocolate.csproj", "{3589907A-3106-4974-89E7-CBFE039E967D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoSignalR", "DemoSignalR", "{E5E4585E-162A-45F4-9FBD-063645AE8E33}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoSignalR", "DemoSignalR", "{094978CD-E105-4382-8A25-A1D9990D97E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSignalR", "DemoSignalR\DemoSignalR.csproj", "{53EC3B3E-A8B5-44F6-ADB2-DA9A0093C331}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSignalR", "DemoSignalR\DemoSignalR.csproj", "{5747996F-BCF1-44D6-A521-186AD0215D80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,17 +21,17 @@ Global
 		{3589907A-3106-4974-89E7-CBFE039E967D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3589907A-3106-4974-89E7-CBFE039E967D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3589907A-3106-4974-89E7-CBFE039E967D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{53EC3B3E-A8B5-44F6-ADB2-DA9A0093C331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{53EC3B3E-A8B5-44F6-ADB2-DA9A0093C331}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{53EC3B3E-A8B5-44F6-ADB2-DA9A0093C331}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{53EC3B3E-A8B5-44F6-ADB2-DA9A0093C331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5747996F-BCF1-44D6-A521-186AD0215D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5747996F-BCF1-44D6-A521-186AD0215D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5747996F-BCF1-44D6-A521-186AD0215D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5747996F-BCF1-44D6-A521-186AD0215D80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3589907A-3106-4974-89E7-CBFE039E967D} = {0C873902-884B-40AB-9E5C-5B6A0C68B7A2}
-		{53EC3B3E-A8B5-44F6-ADB2-DA9A0093C331} = {E5E4585E-162A-45F4-9FBD-063645AE8E33}
+		{5747996F-BCF1-44D6-A521-186AD0215D80} = {094978CD-E105-4382-8A25-A1D9990D97E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4054E71-AF4A-433C-9AFB-EBA2A87102F4}
