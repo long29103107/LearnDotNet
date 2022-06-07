@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoMapster", "DemoMapster"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMapster", "DemoMapster\DemoMapster.csproj", "{398AF052-9C8D-43E4-8100-E13A142E3DD1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoBackgroundService", "DemoBackgroundService", "{7AC78B37-6CFA-4B65-81FA-1C370E366364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoBackgroudService", "DemoBackgroudService\DemoBackgroudService.csproj", "{F8B99190-7A57-4C78-8469-63E6502C3E03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{398AF052-9C8D-43E4-8100-E13A142E3DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{398AF052-9C8D-43E4-8100-E13A142E3DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{398AF052-9C8D-43E4-8100-E13A142E3DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B99190-7A57-4C78-8469-63E6502C3E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B99190-7A57-4C78-8469-63E6502C3E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B99190-7A57-4C78-8469-63E6502C3E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B99190-7A57-4C78-8469-63E6502C3E03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{3589907A-3106-4974-89E7-CBFE039E967D} = {0C873902-884B-40AB-9E5C-5B6A0C68B7A2}
 		{5747996F-BCF1-44D6-A521-186AD0215D80} = {094978CD-E105-4382-8A25-A1D9990D97E5}
 		{398AF052-9C8D-43E4-8100-E13A142E3DD1} = {B38C3E52-9C50-4683-9CCA-E468BF50E99D}
+		{F8B99190-7A57-4C78-8469-63E6502C3E03} = {7AC78B37-6CFA-4B65-81FA-1C370E366364}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4054E71-AF4A-433C-9AFB-EBA2A87102F4}
