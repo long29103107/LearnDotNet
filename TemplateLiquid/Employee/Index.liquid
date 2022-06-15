@@ -1,0 +1,41 @@
+﻿<div>
+	<p>
+		<a href="/Employee/Create" class="btn btn-primary">Add employee</a>
+	</p>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>
+					Id
+				</th>
+				<th>
+					Name
+				</th>
+				<th>
+					Address
+				</th>
+				<th>
+					Salary
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for emp in Model %}
+			<tr>
+				<td>
+					{{ emp.Id }}
+				</td>
+				<td>
+					{{ emp.Name }}
+				</td>
+				<td>
+					{{ emp.Address }}
+				</td>
+				<td>
+					{{ emp.Salary }}
+				</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</div>
