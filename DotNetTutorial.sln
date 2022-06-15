@@ -11,23 +11,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PatternCQRS", "PatternCQRS"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternCQRS", "PatternCQRS\PatternCQRS.csproj", "{35312EBC-2822-41AC-ACA2-762D9BAE5BA0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoDecorator", "DemoDecorator", "{D9FB8A51-A57E-47B7-ACE0-57F04A0764C4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PartternDecorator", "PartternDecorator", "{D9FB8A51-A57E-47B7-ACE0-57F04A0764C4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoDecorator", "DemoDecorator\DemoDecorator.csproj", "{151B8E12-8EF5-4980-AAA4-78E1DEFC3B54}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoStrategy", "DemoStrategy", "{B4CD5A88-D066-4C02-BE9E-2F0538EB249A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PartternStrategy", "PartternStrategy", "{B4CD5A88-D066-4C02-BE9E-2F0538EB249A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoStrategy", "DemoStrategy\DemoStrategy.csproj", "{E094DD70-27BB-41BF-B265-D6613ECC2887}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoBuilder", "DemoBuilder", "{2EE64BC0-9DB3-4670-B4D8-F91DDFDF520E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PartternBuilder", "PartternBuilder", "{2EE64BC0-9DB3-4670-B4D8-F91DDFDF520E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoBuilder", "DemoBuilder\DemoBuilder.csproj", "{D8000193-F4A5-4715-A67A-3AEE4113EF5E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoSingleton", "DemoSingleton", "{B1EDC403-B7EF-4D39-9194-3D89DEF7D967}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PartternSingleton", "PartternSingleton", "{B1EDC403-B7EF-4D39-9194-3D89DEF7D967}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSingleton", "DemoSingleton\DemoSingleton.csproj", "{A0D08DC5-6C8A-41E9-AAED-AB8199565AB5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoFacade", "DemoFacade", "{EB7C1433-5C04-48B5-9043-09ECC3500F67}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PartternFacade", "PartternFacade", "{EB7C1433-5C04-48B5-9043-09ECC3500F67}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoFacade", "DemoFacade\DemoFacade.csproj", "{35E49F96-2376-4C09-A926-53CCF2C161FA}"
 EndProject
