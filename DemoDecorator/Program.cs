@@ -1,19 +1,10 @@
-using DemoDecorator.Services;
+using DemoDecorator.Extentions;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<IPlayerService, PlayerService>();
-
-if (Convert.ToBoolean(builder.Configuration["EnableCaching"]))
-{
-    builder.Services.Decorate<IPlayerService, PlayerServiceCachingDecorator>();
-}
-if (Convert.ToBoolean(builder.Configuration["EnableLogging"]))
-{
-    builder.Services.Decorate<IPlayerService, PlayerServiceLoggingDecorator>();
-}
+builder.Services.AddConfigService(builder.Configuration);
 
 var app = builder.Build();
 
