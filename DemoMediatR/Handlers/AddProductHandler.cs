@@ -12,11 +12,11 @@ namespace DemoMediatR.Handlers
             _fakeDataStore = fakeDataStore;
         }
 
-        public async Task<Product> Handle(AddProductCommand request, CancellationToken cancellationToken)
+        public async Task<Product> Handle(AddProductCommand context, CancellationToken cancellationToken)
         {
-            await _fakeDataStore.AddProduct(request.Product);
+            await _fakeDataStore.AddProduct(context.Product);
 
-            return request.Product;
+            return context.Product;
         }
     }
 }
